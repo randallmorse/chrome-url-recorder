@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Save URL</title>
-    <style>
-      body { width: 200px; font-family: Arial, sans-serif; }
-      button { width: 100%; padding: 10px; margin-top: 20px; }
-    </style>
-  </head>
-  <body>
-    <h1>Save URL</h1>
-    <button id="saveButton">Save Current URL</button>
-    <script src="popup.js"></script>
-  </body>
+<head>
+  <title>Save URL</title>
+  <style>
+    body { width: 200px; font-family: Arial, sans-serif; padding: 10px; }
+    input, textarea, button { width: 100%; margin-top: 10px; padding: 10px; }
+    #message { margin-top: 10px; color: red; }
+  </style>
+</head>
+<body>
+  <h1>Save URL</h1>
+  <label for="notes">Notes:</label>
+  <textarea id="notes" placeholder="Add your notes here..."></textarea>
+  <label for="tags">Tags:</label>
+  <input type="text" id="tags" placeholder="Add tags, separated by commas"/>
+  <button id="saveButton">Save Current URL</button>
+  <div id="message"></div>
+  <script src="popup.js"></script>
+</body>
 </html>

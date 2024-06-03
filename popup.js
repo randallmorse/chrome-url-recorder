@@ -32,7 +32,7 @@ document.getElementById('saveButton').addEventListener('click', () => {
             headers['Authorization'] = `Bearer ${result.authToken}`;
           }
 
-          fetch(`${result.apiDomain}/save.php`, {
+          fetch(`${result.apiDomain}`, {
             method: 'POST',
             headers: headers,
             body: JSON.stringify({ url: url, title: title, description: description, renderedText: renderedText, notes: notes, tags: tags })

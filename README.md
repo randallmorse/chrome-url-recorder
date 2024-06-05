@@ -14,7 +14,7 @@ A Chrome extension that allows you to submit the current page or tab to an API U
 
 1. Install the extension from the Chrome Web Store.
 2. Go to the extension options.
-3. Save your API's URL. (Currently only supports open APIs, support for access tokens will be added soon.)
+3. Save your API's URL and Auth Token if needed.
 
 ## Demo API
 

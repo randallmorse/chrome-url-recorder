@@ -1,4 +1,4 @@
-# Save URL to Remote API 1.0
+# Save URL to Remote API 1.0.1
 
 A Chrome extension that allows you to submit the current page or tab to an API URL of your choosing. This is useful for bookmarking, adding to a read later list, integrating with a follow-up task management system, or including the URL in a database for analysis.
 
@@ -22,10 +22,6 @@ A demo API is available at:
 
 [https://github.com/randallmorse/chrome-url-receiver](https://github.com/randallmorse/chrome-url-receiver)
 
-## Future Updates
-
-- Support for access tokens
-
----
-
-**Note**: This extension currently only works with open APIs. Future updates will include support for access tokens to enhance security and functionality.
+## Changes to 1.0.1
+- added support for auth tokens
+- added notes and tags to the submission form

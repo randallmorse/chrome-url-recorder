@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Save URL to Remote API",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "A button to send the current page URL, title, description, rendered text, notes, and tags to a remote API",
   "permissions": [
     "activeTab",
